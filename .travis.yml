@@ -3,4 +3,10 @@ branches:
   only:
     - gh-pages
 
-script: "bundle exec jekyll build"
+before_script:
+    - "npm install -g bower"
+    - "bower install"
+
+script:
+    - "bundle exec jekyll build"
+    - "bundle exec compass compile"
