@@ -37,9 +37,10 @@ h3, h4, h5, h6 {
 nav.top-bar {
     ul.title-area {
         li.name {
-            img {
-                padding-right: 1em;
-            }
+            background-image: url('../images/clermontech_logo_48px.png');
+            background-position: top left;
+            background-repeat: no-repeat;
+            padding-left: 50px;
         }
     }
 }
