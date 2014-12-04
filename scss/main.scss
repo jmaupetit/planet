@@ -1,6 +1,7 @@
 /*
     Clermont'ech Planet styles
  */
+@import "settings";
 
 @import "foundation";
 @import "font-awesome-compass";
@@ -44,7 +45,6 @@
 //   "foundation/components/offcanvas",
 //   "foundation/components/visibility";
 
-@import "settings";
 @import "mixins";
 @import "fonts";
 @import "page";

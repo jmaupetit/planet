@@ -30,9 +30,9 @@
             <ul class="title-area">
                 <li class="name">
                     <h1>
-                        <a href="">
-                            <!-- <img class="logo-small" src="images/clermontech_logo_80px.png" alt="logo clermontech small"/> -->
-                            Planet
+                        <a href="/">
+                            <img class="logo-small" src="images/clermontech_logo_80px.png" alt="logo clermontech small" width="50px" />
+                            Clermont'ech Planet
                         </a>
                     </h1>
                 </li>
@@ -44,8 +44,18 @@
             </ul>
             <section class="top-bar-section">
                 <ul class="right">
-                    <li><a href="" title="Home">Home</a></li>
-                    <li><a title="Notre manifesto" href="http://clermontech.org/">Clermont'ech</a></li>
+                    <li>
+                        <a href="" title="Home">Home</a>
+                    </li>
+                    <li>
+                        <a title="Notre manifesto" href="http://clermontech.org/">Clermont'ech</a>
+                    </li>
+                    <li>
+                        <a href="atom.xml">
+                            RSS
+                            <i class="fa fa-rss header-icon-rss"></i>
+                        </a>
+                    </li>
                 </ul>
             </section>
         </nav>
@@ -54,16 +64,9 @@
     <header>
         <hgroup class="row">
             <div class="large-12 columns">
-                <a class="large-12" href="">
-                    <img class="logo-medium small-3 columns" src="images/clermontech_logo.png" alt="Logo Clermontech" />
-                    <h1 class="small-12 medium-9">Planet</h1>
-                </a>
                 <h2 class="large-12">{{ site.headline }}</h2>
             </div>
         </hgroup>
-        <div class="rss-link">
-           <a href="atom.xml"><i class="fa fa-rss header-icon-rss"></i></a>
-        </div>
     </header>
 
     <section id="content">
