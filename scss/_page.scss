@@ -40,6 +40,7 @@ nav.top-bar {
             background-image: url('../images/clermontech_logo_48px.png');
             background-position: top left;
             background-repeat: no-repeat;
+            margin-left: 1em;
             padding-left: 50px;
         }
     }
@@ -47,6 +48,10 @@ nav.top-bar {
 
 header {
     background-color: $header_background_color;
+
+    h2 {
+
+    }
 }
 
 hr {
