@@ -46,19 +46,6 @@ nav.top-bar {
     }
 }
 
-header {
-    background-color: $header_background_color;
-    height: 100vh;
-    background-image: url(https://farm6.staticflickr.com/5526/14213827145_6c80119896_o_d.jpg);
-    background-size: 100% contain;
-
-    h2 {
-        margin-top: 30vh;
-        font-size: 3em;
-        color: $white;
-    }
-}
-
 hr {
     display: block;
 }
